@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+        Your Name: 
+        Course: 
+        Date: 
+    -->
+    <title>Edited Artwork</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            margin: 0;
+        }
+        #wrapper{
+            background-color: #ddd;
+            margin-top: 50px;
+        }
+        header{
+            background: black url(./Images/williamstown-1057646.jpg) no-repeat center;
+            background-size: cover;
+            color: white;
+            margin: 0;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            background-color: #2d3437;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+        nav a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+        nav li {
+            float: left;
+        }
+        nav a:hover {
+            background-color: #135367;
+            color: #ffffff;
+        }
+
+        nav .right {
+            background-color: #E1693D;
+            color: #000000;
+            float: right;
+        }
+        nav .active {
+            background-color: tomato;
+            color: #000000;
+        }
+
+        nav {
+            top: 0;
+            position: absolute;
+            width: 100%;
+        }
+        main {
+            padding: 20px;
+            width: 900px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #2d3437;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .original_art{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: #ddd;
+        }
+        .cardview{
+            background-color: #ccc;
+            border: 10px solid #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button{
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Popular Artworks Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="active"><a href="#">Edited Art</a></li>
+                    <li class="right"><a href="index.html">Original Art</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Edited Artworks</h2>
+            <div class="original_art">
+                <div class="cardview">
+                    <h3>Autumn Leaves</h3>
+                    <img src="./Images/Autumn leaves 1b.jpg" alt="Autumn Leaves Original Image" width="200px" height="200px">
+                    <p>Edited Autumn leaves looks amazing on the background</p>
+                </div>
+                <div class="cardview">
+                    <h3>Girl on Flowers</h3>
+                    <img src="Images/Image 4c showing a combination of image 4a and 4b.jpg" alt="Poster With Vectors" width="200px" height="200px">
+                    <p> Combination of the girl and the flowers. It must be a nice art!</p>
+                </div>
+                <div class="cardview">
+                    <h3>Beautiful Costline</h3>
+                    <img src="Images/Image 5c shows a combination of image 5a and 5c showing how I combined and masked the two images.jpg" alt="Park In Austin With Cloud" width="200px" height="200px">
+                    <p>The best conbination of beautiful sea shores and the beautiful sea port.</p>
+                </div>
+            </div>
+            <h2> We would love your feedback and Getting in touch!</h2>
+            <form action="google.com">
+                <p>Contact Details:</p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"> <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+                <label for="phone"> Phone: </label>
+                <input type="text" name="phone" id="phone">
+                <p>Did you like the editting done on the artwork?</p>
+                <label for="button">
+                    <input type="radio" name="yes" id="yes">
+                    Yes
+                    <input type="radio" name="no" id="no">
+                    No
+                </label>
+                <p>Which art editting did you like the most?</p>
+                <label for="buttons">
+                    <input type="checkbox" name="1" id="1">
+                    1. Autumn Flowers
+                    <input type="checkbox" name="2" id="2">
+                    2. Girl on Flowers
+                    <input type="checkbox" name="3" id="3">
+                    3. Beautiful Coastline
+                </label>
+                <p>What would you like us to improve?</p>
+                <br>
+                <textarea name="feedback" id="feeback" cols="30" rows="10">
+                </textarea> <br>
+                <button type="submit"> Submit</button>
+            </form>
+
+
+        </main>
+        <footer>
+
+            <p>Thank You!!</p>
+
+        </footer>
+    </div>
+</body>
+
+</html>

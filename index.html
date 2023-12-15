@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+        Your Name: 
+        Course: 
+        Date: 
+    -->
+    <title>Artwork</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            margin: 0;
+        }
+        #wrapper{
+            background-color: #ddd;
+            margin-top: 50px;
+        }
+        header{
+            background: black url(./Images/williamstown-1057646.jpg) no-repeat center;
+            background-size: cover;
+            color: white;
+            margin: 0;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            background-color: #2d3437;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+        nav a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+        nav li {
+            float: left;
+        }
+        nav a:hover {
+            background-color: #135367;
+            color: #ffffff;
+        }
+
+        nav .right {
+            background-color: #E1693D;
+            color: #000000;
+            float: right;
+        }
+        nav .active {
+            background-color: tomato;
+            color: #000000;
+        }
+
+        nav {
+            top: 0;
+            position: absolute;
+            width: 100%;
+        }
+        main {
+            padding: 20px;
+            width: 900px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #2d3437;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .original_art{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: #ddd;
+        }
+        .cardview{
+            background-color: #ccc;
+            border: 10px solid #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button{
+            padding: 10px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Popular Artworks Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="editedArt.html">Edited Art</a></li>
+                    <li class="right" class="active"><a href="#">Original Art</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Original Artworks</h2>
+            <div class="original_art">
+                <div class="cardview">
+                    <h3>Autumn Leaves</h3>
+                    <img src="./Images/Autumn leaves 1a.jpg" alt="Autumn Leaves Original Image" width="200px" height="200px">
+                    <p>Autumn leaves are often seen as a symbol of change and transformation because they change color and fall from the trees, signifying the end of one season and the beginning of another.</p>
+                </div>
+                <div class="cardview">
+                    <h3>Poster With Vectors</h3>
+                    <img src="./Images/Image 2-Poster with vectors.jpg" alt="Vextor Images" width="200px" height="200px">
+                    <p>A poster with vectors is a type of poster that uses vector graphics as its primary design element. Vector graphics are images that are composed of mathematical objects, such as lines, curves, and polygons, rather than pixels. This makes them scalable to any size without losing quality. As a result, vector graphics are often used for high-resolution printing, such as for posters.</p>
+                </div>
+                <div>
+                    <h3>Park in Austsin with floods</h3>
+                    <img src="./Images/Image 3- Park in Austin with cloud removed.jpg" alt="Park in Austin with Clouds" width="200" height="200">
+                    <p>Zilker Metropolitan Park is a vast, sprawling park with plenty of open space to see the clouds. There are also a number of lakes and ponds in the park, so you can watch the clouds reflected in the water.</p>
+                </div>
+                <div class="cardview">
+                    <h3>Beautiful flowers</h3>
+                    <img src="Images/Image 4a.jpg" alt="Beautiful Flowers" width="200px" height="200px">
+                    <p>Flowers are often used to express emotions such as love, joy, and sorrow. They are also used as decorations for special occasions such as weddings and birthdays.</p>
+                </div>
+                <div class="cardview">
+                    <h3>Beautiful Girl</h3>
+                    <img src="Images/Image 4b.jpg" alt="Beautiful Girl" width="200px" height="200px">
+                    <p>Her eyes sparkled like sapphires, reflecting the kindness and intelligence that lay within. Her smile was radiant, capable of lifting the spirits of even those who were feeling down. Her voice was like music, soothing and enchanting all who heard it.</p>
+                </div>
+                <div class="cardview">
+                    <h3>Beautiful Seashores</h3>
+                    <img src="Images/Image 5a.jpg" alt=" Beautiful Sea Shores" width="200px" height="200px">
+                    <p>The gentle murmur of the waves provides a soothing backdrop, their rhythmic ebb and flow a mesmerizing spectacle. As they roll onto the shore, they leave behind trails of glistening foam, like delicate lace adorning the sandy expanse.</p>
+                </div>
+                <div class="cardview">
+                    <h3>Beautiful SeaPort</h3>
+                    <img src="Images/Image 5b.jpg" alt="Beautiful SeaPort" width="200px" height="200px">
+                    <p>Imagine yourself strolling along the cobblestone streets of a charming seaport, the salty tang of the sea breeze filling your lungs and the vibrant hues of fishing boats lining the harbor capturing your gaze. The sun-kissed buildings, adorned with intricate architectural details, whisper tales of the port's rich heritage, while the rhythmic sway of boats against the gentle waves paints a serene scene.</p>
+                </div>
+            </div>
+            <h2> We would love your feedback and getting in touch</h2>
+            <form action="google.com">
+                <p>Contact Details:</p>
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name"> <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br> <br>
+                <label for="phone"> Phone: </label>
+                <input type="text" name="phone" id="phone">
+                <p>Did you like the artwork?</p>
+                <label for="button">
+                    <input type="radio" name="yes" id="yes">
+                    Yes
+                    <input type="radio" name="no" id="no">
+                    No
+                </label>
+                <p>What would you like us to improve?</p>
+                <br>
+                <textarea name="feedback" id="feeback" cols="30" rows="10">
+            
+                </textarea> <br>
+                <button type="submit"> Submit</button>
+            </form>
+
+
+        </main>
+        <footer>
+
+            <p>Thank You!!</p>
+
+        </footer>
+    </div>
+</body>
+
+</html>
